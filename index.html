@@ -1,45 +1,60 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Gabi</title>
-    <style>
-        header {
-            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
-            height: 10vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        header p {
-            font-size: 2rem;
-            color: white;
-        }
-    </style>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <style></style>
+  </head>
+  <body>
     <header>
-        <p>
-            Carta Digital
-        </p>
+      <p>Carta Digital</p>
     </header>
-    Oi gabi <br>
-
-    clica aqui embaixo
-    <br>
-
-    <button id="oi" onclick="aparecer()"> oi </button>
-
-
-
-    <div class="none" id="item1">
-        informacao oculta
-
-    </div>
-    
-</body>
-<script src="./script.js"></script>
+    <main>
+      <section data-aos="fade-up" id="sc-01">
+        <div>
+          Gabi, quando surgiu a oportunidade de mandar uma carta para você, o
+          dindo logo pensou em uma ideia "Tech", pois eu não sou bom em escrever
+          carta, mas fico bem a vontade em fazer a mesma coisa de forma digital.
+          Então decidi inovar a recordação e fazer uma "digital letter", para
+          que você possa ler em seu celular a qualquer momento através do
+          QRCODE.
+          <br /><br />
+          Enfim, quero que saiba que estou muito feliz em saber que está
+          vivenciando algo extraordinário. <br />
+          Estamos longe fisicamente, mas com o coração quentinho torcendo para
+          que tudo ocorra da melhor maneira e que esteja aproveitando cada
+          momento. Não sei exatamente o dia que vai ler esta carta, mas sempre
+          que eu viajo, guardo as melhores recordações vivendo elas e não
+          fazendo fotos, então se ler isto no princípio da sua aventura,
+          lembre-se de viver os momentos e guardar as melhores imagens dentro de
+          você, muitas vezes as pessoas perdem as melhores recordações tentando
+          fotografar algo que não é possível explicar depois, se não vivenciar,
+          se não estiver no lugar, se torna indescritível. Então vai meu
+          primeiro pedido, viva intensamente cada momento, eles serão únicos
+          para você. <br /><br />
+        </div>
+        <div id="btn-sc-01" onclick="handleSc01()">
+          Aperta aqui para ler mais :)
+        </div>
+      </section>
+      <section data-aos="fade-up" class="none" id="sc-02">
+        Nos conhecemos a muitos anos, eu ainda namorava a sua dinda Tanise, lembro que fui em seu aniversário 6 anos e sua dinda me disse para ficar tranquilo em relação a você, pois talvez não iria gostar muito de mim no começo, mas que com o tempo as coisas iriam melhorar, e não é que ela tinha razão? HEHE. <br>
+        Lembro que você me cumprimentou com muito receio, naquele momento era apenas o namorado da dinda
+      </section>
+    </main>
+  </body>
+  <script>
+    AOS.init();
+  </script>
+  <script src="./script.js"></script>
 </html>
