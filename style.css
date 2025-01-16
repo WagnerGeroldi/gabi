@@ -80,4 +80,17 @@ img {
     color: initial;
 }
 
+footer {
+    background: rgb(60, 129, 255);
+      height: 8vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
 

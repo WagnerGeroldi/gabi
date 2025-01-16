@@ -4,6 +4,7 @@ let btnsc03 = document.querySelector(".btn-sc-03");
 let sc02 = document.querySelector(".sc-02");
 let sc03 = document.querySelector(".sc-03");
 let sc04 = document.querySelector(".sc-04");
+let footer = document.getElementById("footer")
 
 function handleSc01() {
   btnsc01.classList.add("none");
@@ -18,4 +19,5 @@ function handleSc02() {
 function handleSc03() {
   btnsc03.classList.add("none");
   sc04.classList.remove("none");
+  footer.classList.remove("none")
 }
