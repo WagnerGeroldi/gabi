@@ -1,4 +1,4 @@
-let btnsc01 = document.getElementById("btn-sc-01")
+let btnsc01 = document.querySelector(".btn-sc-01")
 let sc02 = document.getElementById("sc-02")
 
 
