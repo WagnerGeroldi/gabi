@@ -55,7 +55,7 @@ img {
 }
 
 @keyframes myAnimation {
-    from {background-color: rgb(194, 186, 243);}
+    from {background-color: rgb(129, 110, 255);}
     to {background-color: lightblue;}
 }
 
