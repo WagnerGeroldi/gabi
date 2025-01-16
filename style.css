@@ -46,12 +46,17 @@ img {
 }
 
 #btn {
-  background: none;
   border: 1px solid blue;
   padding: 5px;
   width: max-content;
   border-radius: 5px;
   cursor: pointer;
+  animation: myAnimation 3s infinite;
+}
+
+@keyframes myAnimation {
+    from {background-color: rgb(194, 186, 243);}
+    to {background-color: lightblue;}
 }
 
 #btn:hover {
@@ -68,6 +73,11 @@ img {
 
 .sc-02 {
     display: none;
+}
+
+.link {
+    text-decoration: none!important;
+    color: initial;
 }
 
 
